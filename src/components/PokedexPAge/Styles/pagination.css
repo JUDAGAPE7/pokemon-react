@@ -1,0 +1,17 @@
+.pagination {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+    flex-wrap: wrap;
+    margin-bottom: 5em;
+}
+
+.button_1 {
+    color: black;
+    background-color: #F0F0F0;
+}
+
+.counter {
+    background-color: #F0F0F0
+}

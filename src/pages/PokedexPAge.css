@@ -1,0 +1,65 @@
+body {
+
+    background-image: url('../images/bgpokedex.jpg');
+    background-size: cover;
+    background-position: center;
+
+    height: 100vh;
+
+}
+
+.titles {
+    width: 40%;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+.form {
+
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+    flex-wrap: wrap;
+    margin-bottom: 5em;
+
+
+
+}
+
+
+.form__one {
+    display: flex;
+    justify-content: center;
+    width: 10em;
+    height: 2em;
+    font-size: 1em;
+
+    button {
+        background-color: #D93F3F;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border: 0;
+    }
+}
+
+
+
+
+.welcome {
+    text-align: center;
+    margin: 3em auto;
+    justify-content: center;
+    background-color: aliceblue;
+    max-width: 40%;
+}
+
+.card__container {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+    flex-wrap: wrap;
+    margin-bottom: 5em;
+}
