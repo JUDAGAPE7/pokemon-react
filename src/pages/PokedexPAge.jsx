@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import SelectedType from "../components/PokedexPAge/SelectedType";
 import "./PokedexPAge.css";
 import Pagination from "../components/PokedexPAge/Pagination";
+import headerone from '../images/topheader.png'
 
 
 const PokedexPAge = () => {
@@ -50,7 +51,7 @@ const PokedexPAge = () => {
 
   return (
     <div className="poke__cards">
-      <img className="titles" src='../images/topheader.png' alt="" />
+      <img className="titles" src={headerone} alt="" />
       <p className="welcome ">Welcome {trainer}, you will find your favorite pokemon </p>
       
       <div className="form">

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import useFecth from '../hooks/useFecth'
 import './PokeInfoPage.css'
+import headerone from '../images/topheader.png'
 
 const PokeInfoPage = () => { 
 
@@ -28,7 +29,7 @@ const PokeInfoPage = () => {
 
 
    <section className='header'>
-              <img src='src/images/topheader.png' alt="" />
+              <img src={headerone} alt="" />
         </section>
 
 
