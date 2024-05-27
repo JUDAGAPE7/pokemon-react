@@ -50,7 +50,7 @@ const PokedexPAge = () => {
 
   return (
     <div className="poke__cards">
-      <img className="titles" src='src/images/topheader.png' alt="" />
+      <img className="titles" src='../images/topheader.png' alt="" />
       <p className="welcome ">Welcome {trainer}, you will find your favorite pokemon </p>
       
       <div className="form">
