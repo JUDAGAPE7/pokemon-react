@@ -4,6 +4,7 @@ import { setTrainer } from '../store/slice/trainer.slice'
 import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import './HomePasge.css';
+import headerone from '../images/topheader.png'
 
 const HomePage = () => { 
     
@@ -27,7 +28,7 @@ const HomePage = () => {
   return (
     <div>
 
-<img className="titles" src="images/topheader.png" alt="" />
+<img className="titles" src={headerone} alt="" />
         <p>Hi trainer, if you want to find your prefer pokemon please enter your trainer name</p> 
 
         <form onSubmit={handleSubmit}>
