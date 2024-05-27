@@ -1,13 +1,16 @@
 .all__poke {
     background-color: #FFFFFF;
+    margin-top: 10em;
+
 }
 
 .header {
 
-    width: 100%;
+    width: 80%;
     height: 4em;
     margin-bottom: 5em;
     position: static;
+    margin: 0 auto;
 
 
 }
@@ -30,11 +33,11 @@
 
 
 .poke__img {
-    width: 25%;
+    width: 20%;
     position: absolute;
     z-index: 1;
 
-    transform: translateX(75%) translateY(-80px);
+    transform: translateX(40%) translateY(-80px);
 
 }
 
@@ -47,7 +50,7 @@
 
         left: 50%;
 
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -80%);
 
     }
 }
@@ -55,6 +58,7 @@
 
 .poke__headet3 {
     padding: 10em 0 2em;
+    margin-top: 12em;
 }
 
 
