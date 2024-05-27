@@ -27,7 +27,7 @@ const HomePage = () => {
   return (
     <div>
 
-<img className="titles" src='../images/topheader.png' alt="" />
+<img className="titles" src="images/topheader.png" alt="" />
         <p>Hi trainer, if you want to find your prefer pokemon please enter your trainer name</p> 
 
         <form onSubmit={handleSubmit}>
