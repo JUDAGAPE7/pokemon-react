@@ -37,28 +37,9 @@
     position: absolute;
     z-index: 1;
 
+
     transform: translateX(40%) translateY(-80px);
 
-}
-
-
-@media only screen and (max-width: 768px) {
-    .poke__img {
-        width: 50%;
-
-        top: 50%;
-
-        left: 50%;
-
-        transform: translate(-50%, -80%);
-
-    }
-}
-
-
-.poke__headet3 {
-    padding: 10em 0 2em;
-    margin-top: 12em;
 }
 
 
@@ -70,12 +51,63 @@
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+.poke__headet3 {
+    padding: 10em 0 2em;
+    margin-top: 12em;
+}
+
+
+.poke__weight {
+    padding-right: 3em;
+}
+
+@media only screen and (max-width: 1200px) {
+    .poke__img {
+        width: 40%;
+
+        top: 50%;
+
+        left: 50%;
+
+        transform: translate(-50%, -80%);
+
+    }
+
+
+
+
+    .poke__headet3 {
+        padding: 10em 0 2em;
+        margin-top: 12em;
+    }
+
+    .poke__description {
+        list-style: none;
+        padding: 0;
+        width: 20%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 
     .poke__weight {
         padding-right: 3em;
     }
 
 
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .poke__img {
+        width: 30%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -80%);
+    }
 }
 
 
